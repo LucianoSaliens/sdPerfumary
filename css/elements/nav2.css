@@ -1,0 +1,19 @@
+/* -CSS FOR NAVBAR2- */
+
+#navbar2 {
+    padding: 0.5em;
+    background-color: #f3cabc;
+}
+
+#txt-welcome {
+    font-family: 'Alegreya', serif;
+    font-size: 1.2em;
+}
+
+#txt-welcome {
+    margin-left: 1em;
+}
+
+#btn-search {
+    margin-right: 2em;
+}

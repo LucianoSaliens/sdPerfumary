@@ -1,0 +1,82 @@
+#navbar {
+    background-color: #B7DDE3;
+}
+
+#brand-logo {
+    /* Distance within logo to items */
+    padding-top: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#navbar-toggler {
+    color: #a3657a;
+    background-color: #F7DAD0;
+}
+
+#navbar-toggler:hover {
+    /* Once mouse over change color */
+    background-color: #e4f8fa;
+}
+
+#nav-link {
+    color: #a3657a;
+}
+
+#nav-link:hover {
+    color: #dce9eb;
+}
+
+#dropdown-menu {
+    border: none;
+    background-color: #F7DAD0;
+}
+
+#dropdown-item {
+    color: #a3657a;
+}
+
+#dropdown-item:hover {
+    /* Once mouse over change color */
+    color: #ac1145;
+}
+
+#login {
+    font-size: 30px;
+    color: #a3657a;
+}
+
+#login:hover {
+    /* Once mouse over change color */
+    color: #dce9eb;
+}
+
+#cart {
+    margin-right: 1.2em;
+    font-size: 30px;
+    color: #a3657a;
+}
+
+#cart:hover {
+    /* Once mouse over change color */
+    color: #dce9eb;
+}
+
+#txt-search {
+    border-color: #F7DAD0;
+}
+
+#txt-search:hover {
+    border-color: #a3657a;
+}
+
+#btn-search {
+    color: #a3657a;
+    background-color: #fff9fb;
+}
+
+#btn-search:hover {
+    /* Once mouse over change color */
+    color: #fff9fb;
+    background-color: #a3657a;
+}

@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS & Icons -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/elements/nav1.css">
+    <link rel="stylesheet" href="/css/elements/nav2.css">
+
+    <title>SD Perfumery</title>
+</head>
+
+<body>
+    <!-- DIV for wrap all contents on the page -->
+    <div class="d-flex flex-column wrapper">
+
+        <!-- Navbar1 with all the items and buttons -->
+        <div class="nav1"></div>
+
+        <!-- Navbar2 -->
+        <div class="nav2"></div>
+
+
+        <!-- Main for all items on the page -->
+        <main class="flex-fill">
+            <!-- Carousel -->
+            <div class="container" id="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/img/carousel/crs1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/carousel/crs2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/carousel/crs3.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/carousel/crs4.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- New Arrivals -->
+            <div class="container" id="newArrival">
+                <h3 id="txt-font">New Arrivals</h3>
+                <hr>
+                <div class="row row-cols-1 row-cols-md-3 g-0" id="cards">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href="">
+                                <img src="img/products/image 1 (1).png" class="img-fluid rounded-start" alt="...">
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" id="txt-font"><b>Coach</b></h5>
+                                <p class="card-text" id="txt-font">New York For Men Gift Set<br>EDT 100ml<br>Rs:5020<br><br><b>$115.00</b>
+
+                                    <button class="btn shadow-sm" id="btn-products" type="submit">Shop Now</button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-0">
+                        <div class="col-12 col-md-4">
+                            <img src="img/products/image 2 (1).png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" id="txt-font">Card title</h5>
+                                <p class="card-text" id="txt-font">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text" id="txt-font"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-0">
+                        <div class="col-12 col-md-4">
+                            <img src="img/products/image 3 (1).png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" id="txt-font">Card title</h5>
+                                <p class="card-text" id="txt-font">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text" id="txt-font"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Most Popular Products -->
+                <div class="container" id="newArrival">
+                    <h3 id="txt-font">Most Popular Products</h3>
+                    <hr>
+                    <div class="row row-cols-1 row-cols-md-3 g-0" id="cards">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="img/products/image 4.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title" id="txt-font">Card title</h5>
+                                    <p class="card-text" id="txt-font">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text" id="txt-font"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0">
+                            <div class="col-12 col-md-4">
+                                <img src="img/products/image 5.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title" id="txt-font">Card title</h5>
+                                    <p class="card-text" id="txt-font">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text" id="txt-font"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0">
+                            <div class="col-12 col-md-4">
+                                <img src="img/products/image 6.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title" id="txt-font">Card title</h5>
+                                    <p class="card-text" id="txt-font">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text" id="txt-font"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Most Popular Products -->
+                <div class="popular-products"></div>
+        </main>
+
+
+        <!-- Footer -->
+        <div class="footer"></div>
+        </div>
+
+        <!-- JS for main Navbar1 -->
+        <script src="/js/nav.js"></script>
+
+        <!-- JS for Navbar2 -->
+        <script src="/js/nav2.js"></script>
+
+        <!-- JS for Footer -->
+        <script src="/js/footer.js"></script>
+
+        <!-- Bootstrap JS -->
+        <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

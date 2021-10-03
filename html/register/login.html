@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS & Icons -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="../../css/elements/nav1.css">
+
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- DIV for wrap all contents on the page -->
+    <div class="d-flex flex-column wrapper">
+
+        <!-- Nav1 -->
+        <div class="nav1"></div>
+
+
+        <!-- Main for all items on the page -->
+        <main class="flex-fill">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <form class="col-sm-10 col-md-8 col-lg-6">
+                        <h3>LOG IN</h3>
+
+                        <div class="form-floating mb-3">
+                            <input type="email" id="txtEmail" class="form-control shadow-sm" placeholder=" " autofocus>
+                            <label for="txtEmail">E-mail</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="password" id="txtPassword" class="form-control shadow-sm" placeholder=" " autofocus>
+                            <label for="txtPassword">Password</label>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input type="checkbox" class="form-check-input shadow-sm" value="" id="chkRemember">
+                            <label for="chkRemember" class="form-check-label">Save Register</label>
+                        </div>
+
+                        <button type="button" onclick="window.location.href=' / customer_orders.html'" class="btn btn-lg shadow-sm" style="background-color: #f7dad0;">Enter
+                    </button>
+
+                        <p class="mt-3">
+                            New to SD Perfumery? <a href="../register/signIn.html">Click here</a> to sign in.
+                        </p>
+
+                        <p class="mt-3">
+                            Have you forgotten your password? <a href="../register/resetPassword.html">Click here</a> to reset your password.
+                        </p>
+
+                    </form>
+                </div>
+
+            </div>
+        </main>
+
+
+        <!-- Footer -->
+        <div class="footer"></div>
+    </div>
+
+
+    <!-- JS for main Navbar -->
+    <script src="/js/nav.js"></script>
+
+    <!-- JS for Footer -->
+    <script src="/js/footer.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
