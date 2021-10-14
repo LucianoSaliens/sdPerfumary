@@ -4,7 +4,7 @@ const createFooter = () => {
     footer.innerHTML = `<div class="footer">
     <footer class="border-top mt-3" style="background-color: #7e989c;">
         <div class="container">
-            <div class="row py-3">
+            <div class="row py-3" id="txt-font-11">
                 <div class="col-12 col-md-4 text-center">
                     &copy; 2021 Copyright SDPerfumery.lk<br> All Rights Reserved.<br> ABN 22 222 222 222
                 </div>

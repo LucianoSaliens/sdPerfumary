@@ -20,6 +20,7 @@
 }
 
 #nav-link {
+    font-size: 20px;
     color: #a3657a;
 }
 
@@ -28,11 +29,11 @@
 }
 
 #dropdown-menu {
-    border: none;
     background-color: #F7DAD0;
 }
 
 #dropdown-item {
+    font-size: 20px;
     color: #a3657a;
 }
 

@@ -2,7 +2,7 @@ const createNav2 = () => {
     let nav2 = document.querySelector('.nav2');
 
     nav2.innerHTML = `<div class="nav2">
-    <nav class="navbar">
+    <nav class="navbar" id="txt-font-11">
     <div class="container md-3" id="navbar2">
         <p id="txt-welcome"><i><B>Have you seen these amazing deals?</B><br>Treat yourself to one of these luxurious discount<br> with unbeatable value.</i></p>
         <img class="perfume" src="/img/perfumePack.png">
