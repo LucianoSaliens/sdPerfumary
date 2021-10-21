@@ -18,8 +18,65 @@ body {
     padding: 20px 0px;
 }
 
+#txt-font-0 {
+    font-family: 'Cinzel', serif;
+}
+
+#txt-font-1 {
+    font-family: 'Alegreya', serif;
+}
+
+#txt-font-2 {
+    font-family: 'Average', serif;
+}
+
+#txt-font-3 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+#txt-font-4 {
+    font-family: 'Lora', serif;
+}
+
+#txt-font-5 {
+    font-family: 'Vollkorn', serif;
+}
+
+#txt-font-10 {
+    font-family: 'Aleo', serif;
+}
+
+#txt-font-11 {
+    font-family: 'Kurale', serif;
+}
+
+#txt-font-12 {
+    font-family: 'MonteCarlo', cursive;
+}
+
+#txt-font-13 {
+    font-family: 'Elsie', cursive;
+}
+
 #txt-font {
     font-family: 'Alegreya', serif;
+    font-family: 'Average', serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lora', serif;
+    font-family: 'Vollkorn', serif;
+    font-family: 'Alegreya', serif;
+    font-family: 'Aleo', serif;
+    font-family: 'Average', serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Elsie', cursive;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Kurale', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lora', serif;
+    font-family: 'MonteCarlo', cursive;
+    font-family: 'Vollkorn', serif;
 }
 
 #btn-products {

@@ -14,7 +14,7 @@ const createNav1 = () => {
     <span class="navbar-toggler-icon"></span>
   </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="txt-font-11">
                 <!-- <li class="nav-item">
                     <a class="nav-link" id="nav-link" href="index.html">Home</a>
                 </li> -->
@@ -33,21 +33,14 @@ const createNav1 = () => {
                         <li><a class="dropdown-item" id="dropdown-item" href="/html/category/women.html">Women</a></li>
                         <li><a class="dropdown-item" id="dropdown-item" href="/html/category/men.html">Men</a></li>
                         <li><a class="dropdown-item" id="dropdown-item" href="/html/category/allBrands.html">All Brands</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
                         <li><a class="dropdown-item" id="dropdown-item" href="/html/category/bestSellers.html">Best Sellers</a></li>
                     </ul>
                 </li>
             </ul>
-            <a class="nav-link me-3" id="nav-link" href="/html/register/signIn.html">Sign In</a>
+            <a class="nav-link me-3" id="nav-link" href="/html/register/signIn.html" style="font-family: 'Kurale', serif">Sign In</a>
             <div class="align-self-end">
-                <a class="login" href="/html/register/login.html">
-                    <i class="bi bi-person me-4" id="login"></i>
-                </a>
-                <a class="cart" href="/html/cart.html">
-                    <i class="bi bi-cart" id="cart"></i>
-                </a>
+                <i class="bi bi-person me-4" type="button" href="/html/register/login.html" id="login"></i>
+                <i class="bi bi-cart" type="button" href="/html/cart.html" id="cart"></i>
             </div>
         </div>
     </div>
